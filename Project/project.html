@@ -1,0 +1,326 @@
+﻿<html>
+
+<head>
+        <title>lamdeptuthiennhien</title>
+        <link rel="stylesheet" href="project.css">
+        <script src="project.js"></script>
+</head>
+
+<body>
+        <div id="wrapper">
+                <!--<button id="myBtn" title="Go to top">Back To Top</button>-->
+                <div id="header">
+                        <marquee behavior="alternate" scrollamount="15" onmouseover="this.style.color='black';"
+                                onmouseout="this.style.color='white';">Chào mừng bạn tới Mỹ Phẩm Ladyca</marquee>
+                </div>
+                <div id="gioithieu">
+                        <a href="gioithieu.html" id="kien1" STYLE=" color:black; cursor:hand; text-decoration: none;"
+                                onmouseover="doimau(this);" onmouseout="tralaimau(this);" title="Giới thiệu">Giới
+                                Thiệu</a>
+                </div>
+                <div id="ladyca">
+                        <a href="ladyca.html" id="kien2" STYLE=" color:black; cursor:hand; text-decoration: none;"
+                                onmouseover="doimau(this);" onmouseout="tralaimau(this);" title="Ladyca">Ladyca</a>
+                </div>
+                <div id="nuskin">
+                        <a href="nuskin.html" id="kien3" STYLE=" color:black; cursor:hand; text-decoration: none;"
+                                onmouseover="doimau(this);" onmouseout="tralaimau(this);" title="Nữ skin">Nữ Skin</a>
+                </div>
+                <div id="ladycamain">
+                        <div id="imagetop"><a href="project.html"><img src="Ladyca.png" id="kien4" width="100%"
+                                                height="100%" STYLE=" color:black; cursor:hand"></div></a>
+                </div>
+                <div id="tuvan">
+                        <a href="tuvan.html" id="kien5" STYLE=" color:black; cursor:hand ; text-decoration: none;"
+                                onmouseover="doimau(this);" onmouseout="tralaimau(this);" title="Tư vấn">Tư Vấn</a>
+                </div>
+                <div id="hoatdong">
+                        <a href="hoatdong.html" id="kien6" STYLE=" color:black; cursor:hand; text-decoration: none;"
+                                onmouseover="doimau(this);" onmouseout="tralaimau(this);" title="Hoạt động">Hoạt
+                                Động</a>
+                </div>
+                <div id="lienhe">
+                        <a href="lienhe.html" id="kien7" STYLE=" color:black; cursor:hand; text-decoration: none;"
+                                onmouseover="doimau(this);" onmouseout="tralaimau(this);" title="Liên hệ">Liên Hệ</a>
+                </div>
+                <div id="imagemain">
+                        <a><img id="kien8" name="kienviet1" src="slide-lam-dep-tu-thien-nhien.jpg" width="100%" height="400px" draggable="true" ondragstart="kienviet2();" ondragend="kienviet();"></a>
+                </div>
+                <div id="hainut"><input type="radio" id="nut1" name="nut" checked onclick="kichnut1();"><input
+                                type="radio" id="nut2" name="nut" onclick="kichnut2();"><input type="radio" id="nut3"
+                                name="nut" onclick="kichnut3();"></div>
+                <div id="sanphamnoibat"><span
+                                style="font-size: 30px; font-family: Arial, Helvetica, sans-serif; color:rgb(14, 110, 219); font-style: italic; font-weight: bold;">SẢN
+                                PHẨM NỔI BẬT</span><span style="font-size: 20px; color: indigo">An toàn - Đẳng cấp - Giá
+                                hợp lý</span>
+                </div>
+
+                <div id="sanphammoi">
+                        <div id="spm1"><span
+                                        style="font-size: 30px; font-family: Arial, Helvetica, sans-serif; color:rgb(14, 110, 219); font-style: italic; font-weight: bold;">SẢN
+                                        PHẨM MỚI<br></span><span style="font-size: 20px; color: indigo">Mẫu mới – Xu
+                                        hướng – Thời
+                                        thượng</span></div>
+                        <div id="tinhdaubo"><a><img id="kien9" name="kien9" src="tinhdaubo.png"
+                                                width="100%" STYLE=" color:black; cursor:hand; text-decoration: none;"
+                                                onclick="kien2000();"
+                                                title="Tinh dầu bơ"></a>
+                        </div>
+                        <div id="mayruamatlumispa"><a><img id="kien10" name="kien10"
+                                                src="mayruamatlumispa.png" width="100%"
+                                                STYLE=" color:black; cursor:hand; text-decoration: none;"
+                                                
+                                                title="Máy rửa mặt Lumispa"></a></div>
+                        <div id="bottraxanh"><a href="bottraxanh.html"><img id="kien11" name="kien11"
+                                                src="bottraxanh.png" width="100%"
+                                                STYLE=" color:black; cursor:hand; text-decoration: none;"
+                                                onmouseover="document.kien11.src='anh23.jpg'"
+                                                onmouseout="document.kien11.src='bottraxanh.png'"
+                                                title="Bột trà xanh"></a></div>
+                        <div id="botcamgao"><a href="botcamgao.html"><img id="kien12" name="kien12" src="botcamgao.png"
+                                                width="100%" STYLE=" color:black; cursor:hand; text-decoration: none;"
+                                                onmouseover="document.kien12.src='anh24.jpg'"
+                                                onmouseout="document.kien12.src='botcamgao.png'"
+                                                title="Bột cám gạo"></a></div>
+                        <div id="tdb">
+                                <a href="tinhdaubo.html" id="kien13"
+                                        STYLE=" color:black; cursor:hand; text-decoration: none;"
+                                        onmouseover="doimau(this);" onmouseout="tralaimau(this);"
+                                        title="Tinh dầu bơ">TINH DẦU BƠ</a>
+                        </div>
+                        <div id="mrml">
+                                <a href="mayruamat.html" id="kien14"
+                                        STYLE=" color:black; cursor:hand; text-decoration: none;"
+                                        onmouseover="doimau(this);" onmouseout="tralaimau(this);"
+                                        title="Máy rửa mặt Lumispa">MÁY RỬA MẶT
+                                        LUMISPA</a>
+                        </div>
+                        <div id="btx">
+                                <a href="bottraxanh.html" id="kien15"
+                                        STYLE=" color:black; cursor:hand; text-decoration: none;"
+                                        onmouseover="doimau(this);" onmouseout="tralaimau(this);"
+                                        title="Bột trà xanh">BỘT TRÀ XANH</a>
+                        </div>
+                        <div id="bcg">
+                                <a href="botcamgao.html" id="kien16"
+                                        STYLE=" color:black; cursor:hand; text-decoration: none"
+                                        onmouseover="doimau(this);" onmouseout="tralaimau(this);"
+                                        title="Bột cám gạo">BỘT CÁM GẠO</a>
+                        </div>
+                </div>
+
+                <div id="meolamdep">
+                        <div id="mld1"><span
+                                        style="font-size: 30px; font-family: Arial, Helvetica, sans-serif; color:rgb(14, 110, 219); font-style: italic; font-weight: bold;">MẸO
+                                        LÀM ĐẸP</span><span style="font-size: 20px; color: indigo"><br>Những trải nghiệm
+                                        trong cuộc sống cân
+                                        bằng</span></div>
+                        <div id="anh1"><a ><img id="kien17" src="anh1.jpg" width="100%"
+                                                height="100%" STYLE=" color:black; cursor:hand; text-decoration: none"
+                                                title="Bà bầu dùng tinh dầu bơ trị rạn da" name="kien1000" onclick="kien();"></a></div>
+                        <div id="anh2"><a href="serumvitaminc.html"><img id="kien18" src="anh2.jpg" width="100%"
+                                                height="100%" STYLE=" color:black; cursor:hand; text-decoration: none"
+                                                title="SERUM VITAMIN C TRỊ THÂM LÀ GÌ?"></a></div>
+                        <div id="anh3"><a href="luachonserum.html"><img id="kien19" src="anh3.jpg" width="100%"
+                                                height="100%" STYLE=" color:black; cursor:hand; text-decoration: none"
+                                                title="Lựa chọn serum trị thâm mụn cho ra"></a></div>
+                        <div id="anh4"><a href="babaudung.html"><img id="kien20" src="anh4.jpg" width="100%"
+                                                height="100%" STYLE=" color:black; cursor:hand; text-decoration: none"
+                                                title="Bà bầu dùng tinh dầu bơ trị rạn da"></a></div>
+                        <div id="anh1text"><a href="babaudung.html" id="kien21"
+                                        STYLE="cursor:hand; text-decoration: none; font-size: 20px; color: #3A359B; font-weight: bold;"
+                                        onmouseover="doimau2(this);" onmouseout="tralaimau2(this);" >BÀ BẦU DÙNG
+                                        TINH DẦU BƠ TRỊ RẠN DA</a><br><span style="font-size: 15px;"><br>Hiện tượng rạn
+                                        da là một
+                                        trong những điều khá phổ biến của chị em.</span></div>
+                        <div id="anh2text"><a href="serumvitaminc.html" id="kien22"
+                                        STYLE="cursor:hand; text-decoration: none; font-size: 20px; color: #3A359B; font-weight: bold;"
+                                        onmouseover="doimau2(this);" onmouseout="tralaimau2(this);">SERUM VITAMIN C TRỊ
+                                        THÂM LÀ GÌ?</a><br><span style="font-size: 15px;"><br>Da bị mụn là
+                                        một trong
+                                        những nguyên nhân chính khiến tình trạng thâm da.</span></div>
+                        <div id="anh3text"><a href="luachonserum.html" id="kien23"
+                                        STYLE="cursor:hand; text-decoration: none; font-size: 20px; color: #3A359B; font-weight: bold;"
+                                        onmouseover="doimau2(this);" onmouseout="tralaimau2(this);">LỰA CHỌN
+                                        SERUM TRỊ THÂM MỤN CHO DA</a><br><span style="font-size: 15px;"><br>Da
+                                        nhạy cảm mà còn bị mụn
+                                        thâm là một trong những lỗi ám ảnh.</span></div>
+                        <div id="anh4text"><a href="babaudung.html" id="kien24"
+                                        STYLE="cursor:hand; text-decoration: none; font-size: 20px; color: #3A359B; font-weight: bold;"
+                                        onmouseover="doimau2(this);" onmouseout="tralaimau2(this);">BÀ BẦU DÙNG
+                                        TINH DẦU BƠ TRỊ DẠN RA</a><br><span style="font-size: 15px;"><br>Hiện
+                                        tượng rạn da là một
+                                        trong những điều khá phố biến mà chị em.</span></div>
+
+                        <div id="anh5"><a href="tinhdaubo.html"><img id="kien25" src="anh5.jpg" width="100%"
+                                                height="100%" STYLE=" color:black; cursor:hand; text-decoration: none"
+                                                title="Tinh dầu bơ hạt mỡ là gì?"></a></div>
+                        <div id="anh6"><a href="serumvitaminc.html"><img id="kien26" src="anh6.jpg" width="100%"
+                                                height="100%" STYLE=" color:black; cursor:hand; text-decoration: none"
+                                                title="Mặt nạ dưỡng sáng da thảo dược là gì?"></a></div>
+                        <div id="anh7"><a href="luachonserum.html"><img id="kien27" src="anh7.jpg" width="100%"
+                                                height="100%" STYLE=" color:black; cursor:hand; text-decoration: none"
+                                                title="Dùng mặt nạ trị nám thảo dược có hiệu quả"></a></div>
+                        <div id="anh8"><a href="tinhdaubocodungdetrimun.html"><img id="kien28" src="anh8.jpg"
+                                                width="100%" height="100%"
+                                                STYLE=" color:black; cursor:hand; text-decoration: none"
+                                                title="Cách tự làm bột cám gạo cà phê tại nhà"></a></div>
+                        <div id="anh5text"><a href="tinhdaubo.html" id="kien29"
+                                        STYLE=" color:black; cursor:hand; text-decoration: none; font-size: 20px; color: #3A359B; font-weight: bold;"
+                                        onmouseover="doimau2(this);" onmouseout="tralaimau2(this);">TINH DẦU BƠ
+                                        HẠT MỠ LÀ GÌ?</a><br><span style="font-size: 15px;"><br>Bơ hạt mỡ
+                                        (shea butter) không còn xa
+                                        lạ với thị trường trong nước, nó.</span></div>
+                        <div id="anh6text"><a href="serumvitaminc.html" id="kien30"
+                                        STYLE=" color:black; cursor:hand; text-decoration: none; font-size: 20px; color: #3A359B; font-weight: bold;"
+                                        onmouseover="doimau2(this);" onmouseout="tralaimau2(this);">MẶT NẠ
+                                        DƯỠNG SÁNG DA THẢO DƯỢC LÀ GÌ?</a><br><span
+                                        style="font-size: 15px;"><br>Chị em phụ
+                                        nữ có nhu cầu làm đẹp ngày càng tăng và luôn muốn.</span>
+                        </div>
+                        <div id="anh7text"><a href="luachonserum.html" id="kien31"
+                                        STYLE=" color:black; cursor:hand; text-decoration: none; font-size: 20px; color: #3A359B; font-weight: bold;"
+                                        onmouseover="doimau2(this);" onmouseout="tralaimau2(this);">DÙNG MẶT NẠ
+                                        TRỊ NÁM THẢO DƯỢC CÓ HIỆU QUẢ</a><br><span style="font-size: 15px;"><br>Nám da
+                                        là một trong
+                                        những hiện tượng lão hóa da mà chị em phụ nữ.</span></div>
+                        <div id="anh8text"><a href="tinhdaubocodungdetrimun.html" id="kien32"
+                                        STYLE=" color:black; cursor:hand; text-decoration: none; font-size: 20px; color: #3A359B; font-weight: bold;"
+                                        onmouseover="doimau2(this);" onmouseout="tralaimau2(this);">CÁCH TỰ LÀM
+                                        BỘT CÁM GẠO CÀ PHÊ TẠI NHÀ</a><br><span style="font-size: 15px;"><br>Bột cám gạo
+                                        là một trong
+                                        những “tuyệt phẩm” dùng để làm đẹp mà nhiều.</span></div>
+
+                        <div id="anh9"><a href="tinhdaubocodungdetrimun.html"><img id="kien33" src="anh9.jpg"
+                                                width="100%" height="100%"
+                                                STYLE=" color:black; cursor:hand; text-decoration: none"
+                                                title="Tinh dầu bơ có dùng để trị mụn được không?"></a></div>
+                        <div id="anh10"><a href="luachonserum.html"><img id="kien34" src="anh10.jpg" width="100%"
+                                                height="100%" STYLE=" color:black; cursor:hand; text-decoration: none"
+                                                title="Công dụng của mặt nạ cám gạo thảo dược"></a></div>
+                        <div id="anh11"><a href="serumvitaminc.html"><img id="kien35" src="anh11.jpg" width="100%"
+                                                height="100%" STYLE=" color:black; cursor:hand; text-decoration: none"
+                                                title="Cách tự làm bột cám gạo trà xanh tại nhà"></a></div>
+                        <div id="anh12"><a href="babaudung.html"><img id="kien36" src="anh12.jpg" width="100%"
+                                                height="100%" STYLE=" color:black; cursor:hand; text-decoration: none"
+                                                title="Dầu gội tinh dàu bơ làm đẹp tóc"></a></div>
+                        <div id="anh9text"><a href="tinhdaubocodungdetrimun.html" id="kien37"
+                                        STYLE=" color:black; cursor:hand; text-decoration: none; font-size: 20px; color: #3A359B; font-weight: bold;"
+                                        onmouseover="doimau2(this);" onmouseup="lienket24();"
+                                        onmouseout="tralaimau2(this);">TINH DẦU BƠ
+                                        CÓ DÙNG ĐỂ TRỊ MỤN ĐƯỢC KHÔNG?</a><br><span
+                                        style="font-size: 15px;"><br>Mụn trứng
+                                        cá, mụn đầu đen, mụn cám… là những tác nhân gây ảnh hưởng đến
+                                        làn da.</span>
+                        </div>
+                        <div id="anh10text"><a href="luachonserum.html" id="kien38"
+                                        STYLE=" color:black; cursor:hand; text-decoration: none; font-size: 20px; color: #3A359B; font-weight: bold;"
+                                        onmouseover="doimau2(this);" onmouseup="lienket24();"
+                                        onmouseout="tralaimau2(this);">CÔNG DỤNG
+                                        MẶT NẠ BỘT CÁM GẠO THẢO DƯỢC</a><br><span
+                                        style="font-size: 15px;"><br>Bột cám gạo
+                                        là nguyên liệu thiên nhiên được nhiều chị em phụ nữ lựa
+                                        chọn.</span></div>
+                        <div id="anh11text"><a href="serumvitaminc.html" id="kien39"
+                                        STYLE=" color:black; cursor:hand; text-decoration: none; font-size: 20px; color: #3A359B; font-weight: bold;"
+                                        onmouseover="doimau2(this);" onmouseup="lienket24();"
+                                        onmouseout="tralaimau2(this);">CÁCH TỰ
+                                        LÀM BỘT CÁM GẠO TRÀ XANH TẠI NHÀ</a><br><span
+                                        style="font-size: 15px;"><br>Xu hướng
+                                        sử dụng những nguyên liệu tự nhiên để làm đẹp ngày càng thịnh
+                                        hành.</span></div>
+                        <div id="anh12text"><a href="babaudung.html" id="kien40"
+                                        STYLE=" color:black; cursor:hand; text-decoration: none; font-size: 20px; color: #3A359B; font-weight: bold;"
+                                        onmouseover="doimau2(this);" onmouseup="lienket24();"
+                                        onmouseout="tralaimau2(this);">DẦU GỘI
+                                        TINH DẦU BƠ LÀM ĐẸP TÓC</a><br><span style="font-size: 15px;"><br>Trái bơ có
+                                        nhiều dưỡng chất
+                                        cần thiết cho cơ thể, nó được sử dụng.</span></div>
+                </div>
+
+                <div id="bottom">
+                        <div id="bottom1">
+                                <div id="bot11"><img src="Ladyca.png" width="200" height="70"></div>
+                                <div id="bot12">Nếu bạn có bất cứ thắc mắc gì, vui lòng liên hệ MỸ PHẨM LADYCA:</div>
+                                <div id="bot13">Địa chỉ :48 Đường c12, Phường 13, Quận<br>Tân Bình, TPHCM<br>
+                                        Hotline: 0938 540 485<br>
+                                        Email: Ladyca.vn@gmail.com</div>
+                        </div>
+                        <div id="bottom2">
+                                <div id="bot21">DANH MỤC</div>
+                                <div id="bot22"><a href="gioithieu.html" id="kien41"
+                                                STYLE=" color:black; cursor:hand; font-size: 18px; color: black; font-weight: bold; text-decoration: none;"
+                                                onmouseover="doimau(this);" onmouseout="tralaimau(this);">Giới
+                                                Thiệu</a></div>
+                                <div id="bot23"><a href="ladyca.html" id="kien42"
+                                                STYLE=" color:black; cursor:hand; font-size: 18px; color: black; font-weight: bold; text-decoration: none;"
+                                                onmouseover="doimau(this);" onmouseout="tralaimau(this);">Ladyca</a>
+                                </div>
+                                <div id="bot24"><a href="nuskin.html" id="kien43"
+                                                STYLE=" color:black; cursor:hand; font-size: 18px; color: black; font-weight: bold; text-decoration: none;"
+                                                onmouseover="doimau(this);" onmouseout="tralaimau(this);">Nữ
+                                                Skin</a></div>
+                        </div>
+                        <div id="bottom3">
+                                <div id="bot31">SẢN PHẨM</div>
+                                <div id="bot32"><a href="tinhdaubo.html" id="kien44"
+                                                STYLE=" color:black; cursor:hand; font-size: 18px; color: black; font-weight: bold; text-decoration: none;"
+                                                onmouseover="doimau(this);" onmouseout="tralaimau(this);">TINH
+                                                DẦU
+                                                BƠ</a></div>
+                                <div id="bot33"><a href="mayruamat.html" id="kien45"
+                                                STYLE=" color:black; cursor:hand; font-size: 18px; color: black; font-weight: bold; text-decoration: none;"
+                                                onmouseover="doimau(this);" onmouseout="tralaimau(this);">MÁY RỬA
+                                                MẶT
+                                                LUMISPA</a></div>
+                                <div id="bot34"><a href="bottraxanh.html" id="kien46"
+                                                STYLE=" color:black; cursor:hand; font-size: 18px; color: black; font-weight: bold; text-decoration: none;"
+                                                onmouseover="doimau(this);" onmouseout="tralaimau(this);">BỘT TRÀ
+                                                XANH</a></div>
+                        </div>
+                        <div id="bottom4">
+                                <div id="bot41">BÀI VIẾT MỚI NHẤT</div>
+                                <div id="bot42"><a href="babaudung.html" id="kien47"
+                                                STYLE=" color:black; cursor:hand; font-size: 18px; color: black; font-weight: bold; text-decoration: none;"
+                                                onmouseover="doimau(this);" onmouseout="tralaimau(this);">BÀ BẦU
+                                                DÙNG
+                                                TINH DẦU BƠ TRỊ RẠN DA</a></div>
+                                <div id="bot43"><a href="serumvitaminc.html" id="kien48"
+                                                STYLE=" color:black; cursor:hand; font-size: 18px; color: black; font-weight: bold; text-decoration: none;"
+                                                onmouseover="doimau(this);" onmouseout="tralaimau(this);">SERUM
+                                                VITAMIN C TRỊ THÂM LÀ GÌ?</a></div>
+                                <div id="bot44"><a href="luachonserum.html" id="kien49"
+                                                STYLE=" color:black; cursor:hand; font-size: 18px; color: black; font-weight: bold; text-decoration: none;"
+                                                onmouseover="doimau(this);" onmouseout="tralaimau(this);">LỰA
+                                                CHỌN
+                                                SERUM TRỊ THÂM MỤN CHO DA NHẠY CẢM</a></div>
+                        </div>
+                </div>
+                <div id="last">Copyright 2019 © Nguyễn Trung Kiên All Rights Reserved.
+                </div>
+        </div>
+</body>
+
+<!--<script>
+        //Khi người dùng cuộn chuột thì gọi hàm scrollFunction
+        window.onscroll = function () { scrollFunction() };
+        // khai báo hàm scrollFunction
+        function scrollFunction() {
+                // Kiểm tra vị trí hiện tại của con trỏ so với nội dung trang
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        //nếu lớn hơn 20px thì hiện button
+                        document.getElementById("myBtn").style.display = "block";
+                } else {
+                        //nếu nhỏ hơn 20px thì ẩn button
+                        document.getElementById("myBtn").style.display = "none";
+                }
+        }
+        //gán sự kiện click cho button
+        document.getElementById('myBtn').addEventListener("click", function () {
+                //Nếu button được click thì nhảy về đầu trang
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+        });
+</script>-->
+
+</html>
