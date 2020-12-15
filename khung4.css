@@ -1,0 +1,75 @@
+#wrapper{
+    position: absolute;
+    width: 250;
+    height: 250;
+    color: black;
+    font-size: 16px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    border: 0px solid red;
+    text-align: center;
+}
+#danhmuc{
+    border: 0px solid black;
+    width: 250;
+    height: 50;
+    background-color: antiquewhite;
+    font-size: 20;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#sanpham{
+    position: absolute;
+    border: 0px solid black;
+    width: 250;
+    height: 50;
+    top:50;
+    background-color: white;
+    font-size: 20;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#sanpham1{
+    position: absolute;
+    border-top: 1px solid rgba(58, 53, 55, 0.952);
+    width: 250;
+    height: 50;
+    top:100;
+    background-color: white;
+    font-size: 20;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#sanpham2{
+    position: absolute;
+    border-top: 1px solid black;
+    width: 250;
+    height: 50;
+    top:150;
+    background-color: white;
+    font-size: 20;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#sanpham3{
+    position: absolute;
+    border-top: 1px solid black;
+    width: 250;
+    height: 50;
+    top:200;
+    background-color: white;
+    font-size: 20;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

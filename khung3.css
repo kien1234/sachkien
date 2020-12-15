@@ -1,0 +1,118 @@
+#wrapper{
+    position: absolute;
+    width: 250;
+    height: 600;
+    color: white;
+    font-size: 16px;
+    background-color: #E7E7E7;
+    top: 0;
+    left: 0;
+    border: 0px solid red;
+    text-align: justify;
+}
+#main1{
+    position: absolute;
+    width: 250;
+    height: 80;
+    color: black;
+    font-size: 16px;
+    background-color: #E7E7E7;
+    top: 0;
+    left: 0;
+    border: 0px solid black;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+}
+#main2{
+    position: absolute;
+    width: 250;
+    height: 80;
+    color: red;
+    font-size: 16px;
+    background-color: #E7E7E7;
+    top: 80;
+    left: 0;
+    border: 0px solid black;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+#main3{
+    position: absolute;
+    width: 210;
+    height: 80;
+    color: black;
+    font-size: 16px;
+    background-color: #E7E7E7;
+    top: 160;
+    left: 20;
+    border: 0px solid black;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+#main4{
+    position: absolute;
+    width: 250;
+    height: 80;
+    color: red;
+    font-size: 16px;
+    background-color: #E7E7E7;
+    top: 240;
+    left: 0;
+    border: 0px solid black;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+#main5{
+    position: absolute;
+    width: 210;
+    height: 80;
+    color: black;
+    font-size: 16px;
+    background-color: #E7E7E7;
+    top: 320;
+    left: 20;
+    border: 0px solid black;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+#main6{
+    position: absolute;
+    width: 250;
+    height: 80;
+    color: red;
+    font-size: 16px;
+    background-color: #E7E7E7;
+    top: 400;
+    left: 0;
+    border: 0px solid black;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+#main7{
+    position: absolute;
+    width: 210;
+    height: 80;
+    color: black;
+    font-size: 16px;
+    background-color: #E7E7E7;
+    top: 480;
+    left: 20;
+    border: 0px solid black;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}

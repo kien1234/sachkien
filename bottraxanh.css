@@ -1,0 +1,88 @@
+#wrapper{
+    position: absolute;
+    width: 100%;
+    height: 1800px;
+    color: white;
+    font-size: 16px;
+    background-color: #E7E7E7;
+    top: 0;
+    left: 0;
+}
+#khung1{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    color: white;
+    font-size: 16px;
+    background-color: #E7E7E7;
+    top: 0;
+    left: 0;
+}
+#khung2{
+    position: absolute;
+    width: 100%;
+    height: 401px;
+    color: white;
+    font-size: 16px;
+    background-color: #E7E7E7;
+    top: 1500;
+    left: 0;
+}
+#khung3{
+    position: absolute;
+    width: 250;
+    height: 600;
+    font-size: 16px;
+    background-color: #E7E7E7;
+    top: 30;
+    left: 78%;
+    border: 0px solid black;
+}
+#khung4{
+    position: absolute;
+    width: 250;
+    height: 300;
+    font-size: 16px;
+    background-color: #E7E7E7;
+    top: 630;
+    left: 78%;
+    border: 0px solid black;
+}
+#main{
+    position: absolute;
+    width: 92%;
+    height: 1270;
+    color: black;
+    font-size: 16px;
+    background-color: white;
+    top: 200;
+    left: 4%;
+    border: 0px solid black;
+}
+
+/*=========================================================================*/
+
+#tinhdaubo{
+    position: absolute;
+    top: 50px;
+    border: 0px solid black;
+    width:400;
+    height:auto;
+    left:3%;
+}
+#kien1{
+    position: absolute;
+    top: 50px;
+    border: 0px solid black;
+    width:450;
+    height:420;
+    left:450;
+}
+#kien2{
+    position: absolute;
+    top: 500px;
+    width:900;
+    height:700;
+    left:3%;
+    border-top: 1px solid black;
+}
